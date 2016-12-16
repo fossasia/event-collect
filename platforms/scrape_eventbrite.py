@@ -1,48 +1,115 @@
-import sys,json,requests
+import os,sys,json,requests
 from bs4 import BeautifulSoup
 
-scrape_api = "http://loklak.org/api/eventbritecrawler.json?url="
-search_url = "https://www.eventbrite.com/d/worldwide/query/?crt=regular&sort=best" 
-#replace "query" with user's query 
+LOKLAK_API_ENDPOINT = "http://loklak.org/api/eventbritecrawler.json"
+SEARCH_URL = "https://www.eventbrite.com/d/worldwide/%s/?crt=regular&sort=best" 
+
 
 def makeSoup(url):
-	raw_html = requests.get(url).text
-	return BeautifulSoup(raw_html)
+        '''
+        Utility function to create a BeautifulSoup object of the HTML content of passed web page URL.
 
-def getEvents(soup):
-	events = []
-	results = clearSoup(soup)
-	for event in results.findAll('a'):
-		href = event['href']
-		if 'https://' in href:
-			events.append(href)
-	return events
+        :param url: URL of web page
+        ''' 
+        raw_html = requests.get(url).text
+        return BeautifulSoup(raw_html)
+
 
 def clearSoup(soup):
-	results = soup.find('div', class_='js-event-list-container l-mar-stack l-mar-top-2')
-	return results
+        '''
+        Utility function to find results div object and return the same
 
-def scrapeEvents(events):
-	for url in events:
-		json_data = requests.get(scrape_api+url).json()
-		title = getEventTitle(url)
-		print(title)
-		writeOut(json_data, title)
+        :param soup: BeautifulSoup object of the web page
+        '''
+        results = soup.find('div', class_='js-event-list-container l-mar-stack l-mar-top-2')
+        return results
+
+
+def getEvents(soup):
+        '''
+        Generate list of event URLs
+
+        :param soup: BeautifulSoup object of search result page from eventbrite.com
+        '''
+        events = []
+
+        # find the results div object
+        results = clearSoup(soup)
+
+        # save all event URLs to events list
+        for event in results.findAll('a'):
+                href = event['href']
+                if href.startswith('https'):
+                        events.append(href)
+                        
+        return events
+
+
+def scrapeEvents(events, query):
+        '''
+        Get event data using LOKLAK API and save the event as a JSON file
+        in a directory having same name as the query
+
+        :param events: List of event URLs
+        '''
+        
+        # creating folder by the query name (If doesnt exist)
+        if not os.path.exists(query):
+                os.mkdir(query)
+
+        # setting the directory name
+        dir_name = query
+
+        print("Following files have been created:")
+        # generating json data and saving it for each event    
+        for url in events:
+                json_data = requests.get(LOKLAK_API_ENDPOINT, params = {'url':url}).json()
+                file_path = dir_name + '/' + getEventTitle(url) + '.json'
+                print(file_path)
+                writeOut(json_data, file_path)
+
 
 def getEventTitle(event_url):
-	title = event_url[29:-30].replace('/','')
-	return title
+        '''
+        Utility function to generate title from event URL
 
-def writeOut(data, event_name):
-	with open(event_name+'.json', 'w+') as f:
-		json.dump(data, f)
+        :param event_url: URL of the event
+        '''
+        title = event_url.split('/')[-1].split('?')[0].split('-tickets')[0]
+        return title
 
-if len(sys.argv)>1:
-	query = sys.argv[1]
-	url = search_url.replace('query', query)
-	soup = makeSoup(url)
-	events = getEvents(soup)
-	scrapeEvents(events)
-else:
-	print("    No query specified.")
-	print("    Usage: python scrape_eventbrite.py [query]")
+
+def writeOut(data, file_path):
+        '''
+        Utility function to write data to given file path
+
+        :param data: data to be written to the file
+        :param file_path: path to the file
+        '''
+        with open(file_path, 'w+') as f:
+                json.dump(data, f)
+
+
+def eventCollector(query):
+        '''
+        Main function which calls other sub-functions to collect and save events
+
+        :param query: event query
+        '''
+        # generate Event Brite(EB) URL for given search query
+        EB_URL = SEARCH_URL%query
+        # create BeautifulSoup object for EB results page
+        soup = makeSoup(EB_URL)
+        # get a list of event URLs
+        events = getEvents(soup)
+        # get event data and save it as JSON file
+        scrapeEvents(events, query)
+        
+
+if __name__ == "__main__":
+        if len(sys.argv) > 1:
+                query = sys.argv[1]
+                eventCollector(query)
+        else:
+                print("    No query specified.")
+                print("    Usage: python scrape_eventbrite.py [query]")
