@@ -60,13 +60,16 @@ def scrapeEvents(events, query):
         # setting the directory name
         dir_name = query
 
-        print("Following files have been created:")
+        print("Following events were found:")
         # generating json data and saving it for each event    
         for url in events:
-                json_data = requests.get(LOKLAK_API_ENDPOINT, params = {'url':url}).json()
-                file_path = dir_name + '/' + getEventTitle(url) + '.json'
-                print(file_path)
-                writeOut(json_data, file_path)
+                json_data = requests.get(LOKLAK_API_ENDPOINT, params = {'url':url}).json()['data']
+                event_path = dir_name + '/' + getEventTitle(url)
+                # creating folder by event name
+                if not os.path.exists(event_path):
+                        os.mkdir(event_path)
+                print(event_path)
+                writeOut(json_data, event_path)
 
 
 def getEventTitle(event_url):
@@ -79,15 +82,19 @@ def getEventTitle(event_url):
         return title
 
 
-def writeOut(data, file_path):
+def writeOut(data, event_path):
         '''
         Utility function to write data to given file path
 
         :param data: data to be written to the file
-        :param file_path: path to the file
+        :param event_path: path to the event directory
         '''
-        with open(file_path, 'w+') as f:
-                json.dump(data, f)
+        file_names = ['/event.json', '/organizers.json', '/microlocations.json', '/forms.json',
+                      '/session_types.json', '/sessions.json', '/sponsors.json', '/speakers.json', '/tracks.json']
+
+        for x in range(len(file_names)):
+                with open(event_path + file_names[x], 'w+') as f:
+                        json.dump(data[x], f, indent = 4)
 
 
 def eventCollector(query):
