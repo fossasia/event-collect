@@ -1,0 +1,33 @@
+{
+    "event_url": "https://www.eventbrite.com/e/newport-folk-festival-2017-tickets-28566500171?aff=es2", 
+    "location_name": "", 
+    "description": "", 
+    "creator": {
+        "id": "1", 
+        "email": ""
+    }, 
+    "background_url": "", 
+    "start_time": "2017-07-28T11:00:00", 
+    "social_links": [
+        {
+            "name": "Facebook", 
+            "id": "1"
+        }, 
+        {
+            "name": "Twitter", 
+            "id": "2"
+        }
+    ], 
+    "ticket_url": "https://www.eventbrite.com/e/newport-folk-festival-2017-tickets-28566500171?aff=es2#tickets", 
+    "longitude": -71.33543, 
+    "organizer_name": "", 
+    "topic": "", 
+    "privacy": "public", 
+    "state": "completed", 
+    "end_time": "2017-07-30T19:30:00", 
+    "latitude": 41.47668, 
+    "logo": "", 
+    "type": "", 
+    "id": "28566500171", 
+    "name": ""
+}

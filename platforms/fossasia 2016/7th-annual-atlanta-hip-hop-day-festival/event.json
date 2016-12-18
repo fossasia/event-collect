@@ -1,0 +1,33 @@
+{
+    "event_url": "https://www.eventbrite.com/e/7th-annual-atlanta-hip-hop-day-festival-tickets-1880852681?aff=es2", 
+    "location_name": "", 
+    "description": "", 
+    "creator": {
+        "id": "1", 
+        "email": ""
+    }, 
+    "background_url": "", 
+    "start_time": "2017-10-06T11:00:00", 
+    "social_links": [
+        {
+            "name": "Facebook", 
+            "id": "1"
+        }, 
+        {
+            "name": "Twitter", 
+            "id": "2"
+        }
+    ], 
+    "ticket_url": "https://www.eventbrite.com/e/7th-annual-atlanta-hip-hop-day-festival-tickets-1880852681?aff=es2#tickets", 
+    "longitude": -84.3921, 
+    "organizer_name": "", 
+    "topic": "", 
+    "privacy": "public", 
+    "state": "completed", 
+    "end_time": "2017-10-08T21:00:00", 
+    "latitude": 33.75216, 
+    "logo": "", 
+    "type": "", 
+    "id": "1880852681", 
+    "name": ""
+}
