@@ -1,0 +1,33 @@
+{
+    "event_url": "https://www.eventbrite.com/e/the-great-dickens-christmas-fair-2016-5-weekends-one-friday-tickets-27132166039?aff=es2", 
+    "location_name": "", 
+    "description": "", 
+    "creator": {
+        "id": "1", 
+        "email": ""
+    }, 
+    "background_url": "", 
+    "start_time": "", 
+    "social_links": [
+        {
+            "name": "Facebook", 
+            "id": "1"
+        }, 
+        {
+            "name": "Twitter", 
+            "id": "2"
+        }
+    ], 
+    "ticket_url": "https://www.eventbrite.com/e/the-great-dickens-christmas-fair-2016-5-weekends-one-friday-tickets-27132166039?aff=es2#tickets", 
+    "longitude": -122.41874, 
+    "organizer_name": "", 
+    "topic": "", 
+    "privacy": "public", 
+    "state": "completed", 
+    "end_time": "", 
+    "latitude": 37.706764, 
+    "logo": "", 
+    "type": "", 
+    "id": "27132166039", 
+    "name": ""
+}

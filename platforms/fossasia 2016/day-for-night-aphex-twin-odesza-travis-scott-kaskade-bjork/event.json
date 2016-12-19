@@ -1,0 +1,33 @@
+{
+    "event_url": "https://www.eventbrite.com/e/day-for-night-aphex-twin-odesza-travis-scott-kaskade-bjork-tickets-27587614297?aff=es2", 
+    "location_name": "", 
+    "description": "", 
+    "creator": {
+        "id": "1", 
+        "email": ""
+    }, 
+    "background_url": "", 
+    "start_time": "2016-12-16T19:00:00", 
+    "social_links": [
+        {
+            "name": "Facebook", 
+            "id": "1"
+        }, 
+        {
+            "name": "Twitter", 
+            "id": "2"
+        }
+    ], 
+    "ticket_url": "https://www.eventbrite.com/e/day-for-night-aphex-twin-odesza-travis-scott-kaskade-bjork-tickets-27587614297?aff=es2#tickets", 
+    "longitude": -95.364525, 
+    "organizer_name": "", 
+    "topic": "", 
+    "privacy": "public", 
+    "state": "completed", 
+    "end_time": "2016-12-19T02:00:00", 
+    "latitude": 29.766142, 
+    "logo": "", 
+    "type": "", 
+    "id": "27587614297", 
+    "name": ""
+}

@@ -1,0 +1,33 @@
+{
+    "event_url": "https://www.eventbrite.com/e/snowglobe-music-festival-2016-tickets-20771420879?aff=es2", 
+    "location_name": "", 
+    "description": "", 
+    "creator": {
+        "id": "1", 
+        "email": ""
+    }, 
+    "background_url": "", 
+    "start_time": "2016-12-29T13:00:00", 
+    "social_links": [
+        {
+            "name": "Facebook", 
+            "id": "1"
+        }, 
+        {
+            "name": "Twitter", 
+            "id": "2"
+        }
+    ], 
+    "ticket_url": "https://www.eventbrite.com/e/snowglobe-music-festival-2016-tickets-20771420879?aff=es2#tickets", 
+    "longitude": -119.96918, 
+    "organizer_name": "", 
+    "topic": "", 
+    "privacy": "public", 
+    "state": "completed", 
+    "end_time": "2017-01-01T01:00:00", 
+    "latitude": 38.92546, 
+    "logo": "", 
+    "type": "", 
+    "id": "20771420879", 
+    "name": ""
+}

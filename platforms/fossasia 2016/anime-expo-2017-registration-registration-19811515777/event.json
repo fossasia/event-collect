@@ -1,0 +1,33 @@
+{
+    "event_url": "https://www.eventbrite.com/e/anime-expo-2017-registration-registration-19811515777?aff=es2", 
+    "location_name": "", 
+    "description": "", 
+    "creator": {
+        "id": "1", 
+        "email": ""
+    }, 
+    "background_url": "", 
+    "start_time": "", 
+    "social_links": [
+        {
+            "name": "Facebook", 
+            "id": "1"
+        }, 
+        {
+            "name": "Twitter", 
+            "id": "2"
+        }
+    ], 
+    "ticket_url": "https://www.eventbrite.com/e/anime-expo-2017-registration-registration-19811515777?aff=es2#tickets", 
+    "longitude": -118.269554, 
+    "organizer_name": "", 
+    "topic": "", 
+    "privacy": "public", 
+    "state": "completed", 
+    "end_time": "", 
+    "latitude": 34.0402, 
+    "logo": "", 
+    "type": "", 
+    "id": "19811515777", 
+    "name": ""
+}

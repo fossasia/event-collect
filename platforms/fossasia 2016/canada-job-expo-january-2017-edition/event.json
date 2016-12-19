@@ -1,0 +1,33 @@
+{
+    "event_url": "https://www.eventbrite.ca/e/canada-job-expo-january-2017-edition-tickets-7224248923?aff=es2", 
+    "location_name": "", 
+    "description": "", 
+    "creator": {
+        "id": "1", 
+        "email": ""
+    }, 
+    "background_url": "", 
+    "start_time": "2017-01-19T10:00:00", 
+    "social_links": [
+        {
+            "name": "Facebook", 
+            "id": "1"
+        }, 
+        {
+            "name": "Twitter", 
+            "id": "2"
+        }
+    ], 
+    "ticket_url": "https://www.eventbrite.ca/e/canada-job-expo-january-2017-edition-tickets-7224248923?aff=es2#tickets", 
+    "longitude": -79.41468, 
+    "organizer_name": "", 
+    "topic": "", 
+    "privacy": "public", 
+    "state": "completed", 
+    "end_time": "2017-01-19T15:00:00", 
+    "latitude": 43.767612, 
+    "logo": "", 
+    "type": "", 
+    "id": "7224248923", 
+    "name": ""
+}
