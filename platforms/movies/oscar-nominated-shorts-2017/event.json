@@ -1,0 +1,37 @@
+{
+    "name": "Oscar Nominated Shorts 2017",
+    "location_name": "91 W Main St, Westminster, MD 21157",
+    "social_links": [
+        {
+            "name": "Facebook",
+            "link": "http://www.facebook.com/CarrollArtsCenter",
+            "id": 1
+        },
+        {
+            "name": "Twitter",
+            "link": "https://twitter.com/CarrollArtsCtr",
+            "id": 2
+        },
+        {
+            "name": "Email Us",
+            "link": "https://carrollcountyartscouncil.ticketleap.com/oscar-nominated-shorts-2017/contact",
+            "id": 3
+        }
+    ],
+    "longitude": "-76.9985579",
+    "background_image": "img/background.jpg",
+    "topic": "",
+    "description": "FLICC presents their annual tradition of screening both the live action and animated shorts that are nominated for 2016 Oscars.  These \"mini movies\" are indeed cinematic masterpieces and thoughtful pieces of filmmaking.The lineup of the Oscar Nominated Short Films will be announced at the Academy Awards nomination ceremony on Tuesday, January 24, 2017Sponsored by Double Diamond Construction",
+    "privacy": "public",
+    "ticket_url": "https://carrollcountyartscouncil.ticketleap.com/oscar-nominated-shorts-2017/dates",
+    "end_time": "2017-02-26T16:00:00",
+    "type": "",
+    "creator": {
+        "id": "1",
+        "email": ""
+    },
+    "latitude": "39.5775315",
+    "organizer_name": "Carroll County Arts Council",
+    "start_time": "2017-02-26T13:00:00",
+    "state": "Unfinished"
+}

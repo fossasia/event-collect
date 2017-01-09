@@ -1,0 +1,27 @@
+{
+    "name": "NARNIA: The Lion, The Witch, and The Wardrobe",
+    "location_name": "113 2nd St SW, Pine Island, MN 55963",
+    "social_links": [
+        {
+            "name": "Email Us",
+            "link": "https://oldepinetheatre.ticketleap.com/narnia/contact",
+            "id": 1
+        }
+    ],
+    "longitude": "-92.64712",
+    "background_image": "img/background.jpg",
+    "topic": "",
+    "description": "OLDE PINE THEATRE: \"Where the movies come alive.\"Come see Narnia: The Lion, The Witch and The Wardrobe the movie, and experience the live theatrical preshow with in-person appearances by The Lion & The White Witch on stage at the Olde Pine Theatre. There will also be photo opportunity after the movie to take your picture with The Lion & The White Witch. Friday, January 27, 7:00 PMSaturday, January 28, 12:30 PMSunday, January 29 12:30 PM, 3:30 PM, & 6:30 PMPre-sale Online Tickets Only $5!Tickets $6 at the door.",
+    "privacy": "public",
+    "ticket_url": "https://oldepinetheatre.ticketleap.com/narnia/dates",
+    "end_time": "2017-01-29T21:00:00",
+    "type": "",
+    "creator": {
+        "id": "1",
+        "email": ""
+    },
+    "latitude": "44.201205",
+    "organizer_name": "Olde Pine Theatre",
+    "start_time": "2017-01-27T19:00:00",
+    "state": "Unfinished"
+}

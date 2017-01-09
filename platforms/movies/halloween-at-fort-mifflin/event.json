@@ -1,0 +1,27 @@
+{
+    "name": "Halloween at Fort Mifflin",
+    "location_name": "6400 Hog Island Rd, Philadelphia, PA 19153",
+    "social_links": [
+        {
+            "name": "Email Us",
+            "link": "https://fortmifflin.ticketleap.com/halloween-at-fort-mifflin/contact",
+            "id": 1
+        }
+    ],
+    "longitude": "-75.2136058",
+    "background_image": "img/background.jpg",
+    "topic": "",
+    "description": "For one night only, Fort Mifflin will be open to the public later than usual for visitors to explore the site during the Halloween season!Get your fortune told by an experienced occultist, spend some time watching old horror movies in our Casemate Cinema, summon the spirits with the Ouija board, go on a ghost tour or a paranormal investigation with our experienced guides or just explore the Fort by yourself if you dare! Who knows what lurks inside the walls after dark!5pm to 10pm Tickets available on site or in advance online Tickets - $25.00 for adults, $15.00 for children 12 and under.Share your experience on social media with the hashtag #FMHalloween",
+    "privacy": "public",
+    "ticket_url": "https://fortmifflin.ticketleap.com/halloween-at-fort-mifflin/dates",
+    "end_time": "2017-10-27T22:00:00",
+    "type": "",
+    "creator": {
+        "id": "1",
+        "email": ""
+    },
+    "latitude": "39.8774396",
+    "organizer_name": "Fort Mifflin on the Delaware",
+    "start_time": "2017-10-27T17:00:00",
+    "state": "Unfinished"
+}

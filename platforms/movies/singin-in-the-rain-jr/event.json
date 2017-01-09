@@ -1,0 +1,27 @@
+{
+    "name": "Singin' In The Rain Jr.",
+    "location_name": "5300 Jamesville Road, Syracuse, NY 13214",
+    "social_links": [
+        {
+            "name": "Email Us",
+            "link": "https://mph.ticketleap.com/singin-in-the-rain-jr/contact",
+            "id": 1
+        }
+    ],
+    "longitude": "-76.069273",
+    "background_image": "img/background.jpg",
+    "topic": "",
+    "description": "Singin' in the Rain JR. has all the makings of a Tinseltown tabloid headline \u2013 the starlet, the leading man and a love affair that could change lives and make or break careers! In silent movies, Don Lockwood and Lina Lamont are a hot item, but behind the scenes, things aren't always as they appear on the big screen! Meanwhile, Lina's squeaky voice might be the end of her career in \"talking pictures\" without the help of a talented young actress to do the talking and singing for her.",
+    "privacy": "public",
+    "ticket_url": "https://mph.ticketleap.com/singin-in-the-rain-jr/dates",
+    "end_time": "2017-02-11T21:00:00",
+    "type": "",
+    "creator": {
+        "id": "1",
+        "email": ""
+    },
+    "latitude": "43.02785",
+    "organizer_name": "Manlius Pebble Hill School",
+    "start_time": "2017-02-10T19:30:00",
+    "state": "Unfinished"
+}

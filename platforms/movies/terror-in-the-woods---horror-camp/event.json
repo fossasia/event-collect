@@ -1,0 +1,27 @@
+{
+    "name": "Terror in the Woods - Horror Campout Experience",
+    "location_name": "S Lakeview Dr, Shepherdsville, KY 40165",
+    "social_links": [
+        {
+            "name": "Email Us",
+            "link": "https://terrorcampout.ticketleap.com/terror-in-the-woods---horror-camp/contact",
+            "id": 1
+        }
+    ],
+    "longitude": "-85.6990424942",
+    "background_image": "img/background.jpg",
+    "topic": "",
+    "description": "Terror in the Woods - Horror Campout Experience is a fully immersive interactive event. You will spend 13 hours in a secluded wooded area that in encompassed by 75 acres of fright. You will have numerous options for tents, food, movies, ghost stories, professional crew of zombies, freaks, and maniacs to keep you busy all night. You pick your level of interaction and everyone has the opportunity to win prizes! More info, rules, and other camper rules can be found on our website.",
+    "privacy": "public",
+    "ticket_url": "https://terrorcampout.ticketleap.com/terror-in-the-woods---horror-camp/dates",
+    "end_time": "2017-05-14T08:00:00",
+    "type": "",
+    "creator": {
+        "id": "1",
+        "email": ""
+    },
+    "latitude": "37.9904744324",
+    "organizer_name": "Terror in the Woods - Horror Campout",
+    "start_time": "2017-05-13T19:00:00",
+    "state": "Unfinished"
+}

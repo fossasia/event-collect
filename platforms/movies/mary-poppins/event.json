@@ -1,0 +1,32 @@
+{
+    "name": "DISNEY and CAMERON MACKINTOSH's MARY POPPINS THE BROADWAY MUSICAL",
+    "location_name": "546 Main Street, Russell Springs, KY 42642",
+    "social_links": [
+        {
+            "name": "Facebook",
+            "link": "https://www.facebook.com/The-Star-Theater-151349045649/",
+            "id": 1
+        },
+        {
+            "name": "Email Us",
+            "link": "https://startheater.ticketleap.com/mary-poppins/contact",
+            "id": 2
+        }
+    ],
+    "longitude": "-85.0825757",
+    "background_image": "img/background.jpg",
+    "topic": "",
+    "description": "One of the most popular Disney movies of all time is capturing hearts in a whole new way: as a practically perfect musical! Based on the books by P.L. Travers and the classic Walt Disney film, Disney and Cameron Mackintosh's Mary Poppins delighted Broadway audiences for over 2,500 performances and received nominations for nine Olivier and seven Tony Awards, including Best Musical.The jack-of-all trades, Bert, introduces us to England in 1910 and the troubled Banks family. Young Jane and Michael have sent many a nanny packing before Mary Poppins arrives on their doorstep. Using a combination of magic and common sense, she must teach the family members how to value each other again. Mary Poppins takes the children on many magical and memorable adventures, but Jane and Michael aren't the only ones upon whom she has a profound effect. Even grown-ups can learn a lesson or two from the nanny who advises that \"Anything can happen if you let it.\"",
+    "privacy": "public",
+    "ticket_url": "https://startheater.ticketleap.com/mary-poppins/dates",
+    "end_time": "2017-02-26T16:30:00",
+    "type": "",
+    "creator": {
+        "id": "1",
+        "email": ""
+    },
+    "latitude": "37.0599554",
+    "organizer_name": "The Star Theater",
+    "start_time": "2017-02-17T19:00:00",
+    "state": "Unfinished"
+}

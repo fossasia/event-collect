@@ -1,0 +1,37 @@
+{
+    "name": "Stephen Tobolowsky",
+    "location_name": "1717 N. Harwood Street, Dallas, TX 75201",
+    "social_links": [
+        {
+            "name": "Facebook",
+            "link": "https://www.facebook.com/DallasMuseumofArt",
+            "id": 1
+        },
+        {
+            "name": "Twitter",
+            "link": "https://twitter.com/DallasMuseumArt",
+            "id": 2
+        },
+        {
+            "name": "Email Us",
+            "link": "https://dma.ticketleap.com/stephen-tobolowsky/contact",
+            "id": 3
+        }
+    ],
+    "longitude": "-96.8009683",
+    "background_image": "img/background.jpg",
+    "topic": "",
+    "description": "In My Adventures with God, Stephen Tobolowsky shares a funny, introspective collection of short stories about love, triumph, and catastrophe, all told through the lens of his evolving relationship with the mystery that is God. Filtered through his signature sharp wit, he also provides a structure from which to evaluate our own lives and relationship with a higher power. Tobolowsky has appeared in more than 100 movies and more than 200 television shows, notably Mississippi Burning, Groundhog Day, Glee, The Goldbergs, and Silicon Valley.",
+    "privacy": "public",
+    "ticket_url": "https://dma.ticketleap.com/stephen-tobolowsky/dates",
+    "end_time": "2017-04-18T21:00:00",
+    "type": "",
+    "creator": {
+        "id": "1",
+        "email": ""
+    },
+    "latitude": "32.7877263",
+    "organizer_name": "Dallas Museum of Art",
+    "start_time": "2017-04-18T19:30:00",
+    "state": "Unfinished"
+}

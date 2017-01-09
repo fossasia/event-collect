@@ -1,0 +1,27 @@
+{
+    "name": "Tween Screenings: Mulan (Grades 6-8)",
+    "location_name": "6861 Eldorado Pkwy, McKinney, TX 75070",
+    "social_links": [
+        {
+            "name": "Email Us",
+            "link": "https://mckinneypubliclibrary.ticketleap.com/tween-screenings-mulan/contact",
+            "id": 1
+        }
+    ],
+    "longitude": "-96.706291",
+    "background_image": "img/background.jpg",
+    "topic": "",
+    "description": "Come help us celebrate Asian Pacific Heritage Month with an afternoon at the movies!",
+    "privacy": "public",
+    "ticket_url": "https://mckinneypubliclibrary.ticketleap.com/tween-screenings-mulan/dates",
+    "end_time": "2017-03-09T18:00:00",
+    "type": "",
+    "creator": {
+        "id": "1",
+        "email": ""
+    },
+    "latitude": "33.1736639",
+    "organizer_name": "McKinney Public Library System",
+    "start_time": "2017-03-09T16:30:00",
+    "state": "Unfinished"
+}

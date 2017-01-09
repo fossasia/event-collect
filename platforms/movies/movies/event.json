@@ -1,0 +1,27 @@
+{
+    "name": "\"Day Off at the Movies\" to benefit Hope's In",
+    "location_name": "1000 Garlands Ln, Barrington, IL 60010",
+    "social_links": [
+        {
+            "name": "Email Us",
+            "link": "https://barrington-service-league.ticketleap.com/movies/contact",
+            "id": 1
+        }
+    ],
+    "longitude": "-88.1256379",
+    "background_image": "img/background.jpg",
+    "topic": "",
+    "description": "No school on Friday, February 17? Join us for a Day Off at the Movies to support Hope's In!Friday, February 17 at the theater in the GarlandsTrolls will be showing at 10am, noon and 7pmPre-purchase of seats is required.  This event will sell out! Your $10 sonation will support Hope's In, a local organization that is bringing hope to families in Guatemala.  Many children and families in Guatemala City are living in the local garbage dump.  In conjunction with Hope's In, Barrington Service League is working to raise $5500 to build a home in Guatemala.  We hope to see you for a day of family fun! Can't attend the event, but still want to donate?  Please visit our site: www.hopesin.org/bsl",
+    "privacy": "public",
+    "ticket_url": "https://barrington-service-league.ticketleap.com/movies/dates",
+    "end_time": "2017-02-17T21:00:00",
+    "type": "",
+    "creator": {
+        "id": "1",
+        "email": ""
+    },
+    "latitude": "42.1573414",
+    "organizer_name": "Annmarie Dymon",
+    "start_time": "2017-02-17T10:00:00",
+    "state": "Unfinished"
+}

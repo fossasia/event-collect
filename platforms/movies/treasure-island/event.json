@@ -1,0 +1,37 @@
+{
+    "name": "Treasure Island",
+    "location_name": "1661 Bay Head Road, Annapolis, MD 21409",
+    "social_links": [
+        {
+            "name": "Facebook",
+            "link": "http://www.facebook.com/ChildrensTheatreofAnnapolis",
+            "id": 1
+        },
+        {
+            "name": "Twitter",
+            "link": "https://twitter.com/CTAnnapolis",
+            "id": 2
+        },
+        {
+            "name": "Email Us",
+            "link": "https://cta.ticketleap.com/treasure-island/contact",
+            "id": 3
+        }
+    ],
+    "longitude": "-76.430093",
+    "background_image": "img/background.jpg",
+    "topic": "",
+    "description": "A stunning yarn of piracy on the tropical seas!NOTE: This non-musical production is appropriate for all audiences. SYNOPSIS: Based on the masterful adventure novel by Robert Louis Stevenson, Treasure Island is a stunning yarn of piracy on the tropical seas. It begins at an inn on the Devon coast of England in 1775 and quickly becomes an unforgettable tale of treachery and mayhem featuring a host of legendary swashbucklers including the dangerous Billy Bones (played unforgettably in the movies by Lionel Barrymore), the sinister two-timing Israel Hands, the brassy woman pirate Anne Bonney, and the hideous form of evil incarnate, Blind Pew. At the center of it all are Jim Hawkins, a 14-year-old boy who longs for adventure, and the infamous Long John Silver, who is a complex study of good and evil, perhaps the most famous hero-villain of all time. Silver is an unscrupulous buccaneer-rogue whose greedy quest for gold, coupled with his affection for Jim, cannot help but win the heart of every soul who has ever longed for romance, treasure and adventure. **** SPECIAL EVENTS **** Saturday, January 28  ...  Sensory Friendly Performance & American Sign Language (ASL) InterpretationSaturday, January 28 at 2:00 p.m. will be a Sensory Friendly performance and will be American Sign Language (ASL)* interpreted.* ASL seating: You may purchase these tickets here (online). Please view the Left section of the seating area. You will note there are blue seats labeled for \"Accessible Seating\". Our ASL Interpreters will be featured there.For more information pertaining to this event, please visit our Acessibility webpage. Sunday, January 29 & February 5 ... PIRATE PARTY!Join us for a pre-show Pirate Party! Tickets include light fare, meet & greet with some of our Treasure Island characters, & priority show seating. Seating is limited. Select the \"Pirate Party + Performance\" ticket option when making your online ticket order. WHEN: Sunday, January 29 and Sunday, February 5; 12:30 p.m. - 1:30 p.m. (show time is 2:00 p.m.)COST: $35.00 General Admission (includes Seussical Sundae event + Performance)NOTE: All children must be accompanied by an adult. All attendees must purchase a ticket. Seating for this event is limited. Tickets must be purchased online (not available at the door). Select the \"Pirate Party + Performance\" ticket option to purchase your tickets today! Treasure Island by Robert Louis Stevenson in a new adaptation by Ken Ludwig. Produced by special arrangement with Samuel French, Inc.",
+    "privacy": "public",
+    "ticket_url": "https://cta.ticketleap.com/treasure-island/dates",
+    "end_time": "2017-02-05T16:30:00",
+    "type": "",
+    "creator": {
+        "id": "1",
+        "email": ""
+    },
+    "latitude": "39.028819",
+    "organizer_name": "Children's Theatre of Annapolis",
+    "start_time": "2017-01-27T19:00:00",
+    "state": "Unfinished"
+}
