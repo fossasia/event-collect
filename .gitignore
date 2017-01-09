@@ -1,0 +1,4 @@
+.cache/*
+platforms/__pycache__/*
+node_modules/*
+.coverage
