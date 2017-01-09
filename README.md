@@ -1,4 +1,7 @@
 # Event-Collect
+
+[![Build Status](https://travis-ci.org/fossasia/event-collect.svg?branch=master)](https://travis-ci.org/fossasia/event-collect)
+
 event website listing to Open Event format scraper and converter
 
 #EventBrite Scraper
