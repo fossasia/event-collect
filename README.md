@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/fossasia/event-collect.svg?branch=master)](https://travis-ci.org/fossasia/event-collect)
 
-event website listing to Open Event format scraper and converter
+Event website listing to Open Event format scraper and converter.
 
 #EventBrite Scraper
 Given a query, scrapes EventBrite search results and downloads JSON files of each event using [Loklak's API](https://github.com/loklak/loklak_server/blob/development/docs/parsers.md#event-brite-crawler)
